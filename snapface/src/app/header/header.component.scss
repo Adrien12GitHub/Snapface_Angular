@@ -4,4 +4,18 @@ header {
     margin-bottom: 50px;
     padding: 30px;
     font-size: 175%;
-  }
+}
+
+a {
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+}
+  
+.active {
+    color: #666;
+    text-decoration: underline;
+}
